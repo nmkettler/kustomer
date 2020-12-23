@@ -1,0 +1,39 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  background: #f1f1f1;
+}
+
+a {
+  color: #ff655d;
+}
+
+a:hover,
+a:active {
+  color: #f44336;
+}
+
+/* Component CSS */
+
+.app {
+  display: grid;
+  grid-template-columns: 200px auto;
+  padding: 10px;
+}
+
+.person {
+  cursor: pointer;
+}
+
+.person:hover {
+  color: blue;
+}
+
+.field {
+  white-space: nowrap;
+  width: 100%;
+  display: block;
+  margin: 10px;
+}
+.field input {
+  width: 100%;
+}
